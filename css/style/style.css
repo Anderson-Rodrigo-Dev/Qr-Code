@@ -27,14 +27,12 @@ p {
 
 body{
     width: 1440px;
-    height: 720px;
+    height: 100vh;
     background-color: hsl(212, 45%, 89%);
-    text-align: center;
     display: flex;
-    
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .container {
